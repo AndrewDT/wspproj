@@ -6,7 +6,7 @@ body{
 
 
 #bgdiv{
-	margin-top: 10px;
+	margin-top: 5px;
 	background-color: white;
 	overflow: none;
 	height: 1000px;
@@ -28,7 +28,7 @@ header {
 #siteintent{
 	float: left;
 	background-color: lightblue;
-	width: 48.5%;
+	width: 48.70%;
 	margin: 5px 0px 5px 9px;
 	border-style: none;
 	border-width: 1px;
@@ -38,7 +38,8 @@ header {
 #targetaudience{
 	float: right;
 	background-color: lightblue;
-	width: 48.5%;
+	width: 48.70%;
+	height: 517px;
 	margin: 5px 9px 5px 0px;
 	border-style: none;
 	border-width: 1px;
@@ -53,6 +54,7 @@ header {
 	border-style: none;
 	border-width: 1px;
 	border-radius: 10px;
+	overflow: hidden;
 }
 
 
@@ -67,19 +69,31 @@ h1{
 
 #siteintent h2{
 	margin-left: 10px;
+	text-decoration: underline;
 }
 
 #siteintent p{
 	margin-left: 10px;
+	font-size: 15px;
 }
 /*---------TARGETED AUDIENCE section----------*/
 
 #targetaudience h2{
 	margin-left: 10px;
+	text-decoration: underline;
 }
+
+#targetaudience h3{
+	margin-left: 10px;
+	margin-top: 45px;
+	margin-bottom: -10px;
+	text-decoration: underline;
+}
+
 
 #targetaudience p{
 	margin-left: 10px;
+	font-size: 15px;
 }
 
 
@@ -88,10 +102,78 @@ h1{
 
 #comptanalysis h2{
 	margin-left: 10px;
+	text-decoration: underline;
+	margin-top: 10px;
+}
+
+#comptanalysis h3{
+	margin-left: 10px;
+	margin-bottom: -10px;
+	text-decoration: underline;
+}
+
+#comptanalysis aside{
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 16px;
+}
+
+#comptanalysis table{
+	width: 98%;
+	margin-left: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+#comptanalysis th{
+	border-style: solid;
+	border-width: 1px;
+}
+
+#comptanalysis td{
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+}
+
+#gamespotrow{
+	background-color: rgba(0, 0, 0, .25);
+}
+
+#comptanalysis a{
+	text-decoration: none;
+}
+
+#comptanalysis a:hover{
+	color: red;
+}
+
+#comptanalysis a:active{
+	color: grey;
 }
 
 #comptanalysis p{
 	margin-left: 10px;
 }
 
+
+/*---------FOOTER section----------*/
+
+footer{
+	background-color: lightblue;
+	height: 45px;
+	width: 98%;
+	margin-left: 10px;
+	margin-top: 5px;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+footer aside{
+	padding-top: 15px;
+}
 
