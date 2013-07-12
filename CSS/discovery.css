@@ -1,0 +1,97 @@
+body{
+	width: 940px;
+	margin: 0 auto;
+	background-color: lightgray;
+}
+
+
+#bgdiv{
+	margin-top: 10px;
+	background-color: white;
+	overflow: none;
+	height: 500px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+header {
+	background-color: lightblue;
+	height: 40px;
+	width: 98%;
+	margin: 0 auto;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#siteintent{
+	float: left;
+	background-color: lightblue;
+	width: 48.5%;
+	margin: 5px 0px 5px 9px;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#targetaudience{
+	float: right;
+	background-color: lightblue;
+	width: 48.5%;
+	margin: 5px 9px 5px 0px;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+#comptanalysis{
+	clear: both;
+	background-color: lightblue;
+	width: 98%;
+	margin: 0 auto;
+	border-style: none;
+	border-width: 1px;
+	border-radius: 10px;
+}
+
+
+
+/*---------HEADER section----------*/
+
+h1{
+	text-align: center;
+}
+
+/*---------SITE INTENT section----------*/
+
+#siteintent h2{
+	margin-left: 10px;
+}
+
+#siteintent p{
+	margin-left: 10px;
+}
+/*---------TARGETED AUDIENCE section----------*/
+
+#targetaudience h2{
+	margin-left: 10px;
+}
+
+#targetaudience p{
+	margin-left: 10px;
+}
+
+
+/*---------COMPETITIVE ANALYSIS section----------*/
+
+
+#comptanalysis h2{
+	margin-left: 10px;
+}
+
+#comptanalysis p{
+	margin-left: 10px;
+}
+
+
