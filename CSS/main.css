@@ -1,3 +1,5 @@
+/*----------SITE-WIDE STYLES-------------*/
+
 body{
 	background: url(../Images/site_bg.jpg);
 	background-repeat: no-repeat;
@@ -13,6 +15,22 @@ body{
 	height: 100%;
 }
 
+h1{
+	font-family: 'Exo', sans-serif;
+	font-weight: 800;
+}
+
+h2{
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+}
+
+h3, p{
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+}
+
+	
 /*---------MAIN HEADER/NAV START-----------*/
 
 #main_header{
@@ -68,6 +86,7 @@ body{
 
 #main_header_nav{
 	width: 98%;
+	height: 335px;
 	margin-top: -14px;
 	margin-left: 1%;
 	background-color: black;
@@ -79,7 +98,7 @@ body{
 #main_img{
 	float: left;
 	margin-left: .05%;
-	margin-right: 1.35%;
+	margin-right: 1%;
 }
 
 #main_header_nav h1{
@@ -95,19 +114,25 @@ body{
 #main_header_nav aside{
 	text-align: right;
 	margin-right: 1%;
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
 }
 
 #main_header_nav h3{
 	color: white;
 	text-decoration: underline;
+	font-size: .8em;
 }
 
 
 #main_header_nav li{
 	color: white;
 	list-style-type: none;
-	margin-top: -10px;
-	margin-bottom: 15px;
+	margin-top: -13px;
+	margin-bottom: 16px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: .7em;
 }
 
 /*---------CTA/MAIN CONTENT END-----------*/
@@ -126,9 +151,7 @@ body{
 
 #xbox_one_image{
 	float: left;
-	margin-left: .1%;
-	margin-right: 1%;
-	margin-bottom: 20px;
+	margin: 3px 1% -10px .1%;
 }
 
 #article_one h2{
@@ -165,9 +188,7 @@ body{
 
 #borderlands_two_image{
 	float: left;
-	margin-left: .1%;
-	margin-right: 1%;
-	margin-bottom: 20px;
+	margin: 3px 1% -10px .1%;
 }
 
 #article_two h2{
@@ -206,9 +227,7 @@ body{
 
 #smash_bros_image{
 	float: left;
-	margin-left: .1%;
-	margin-right: 1%;
-	margin-bottom: 20px;
+	margin: 3px 1% -10px .1%;
 }
 
 #article_three h2{
@@ -248,9 +267,7 @@ body{
 
 #realm_reborn_image{
 	float: left;
-	margin-left: .1%;
-	margin-right: 1%;
-	margin-bottom: 20px;
+	margin: 3px 1% -10px .1%;
 }
 
 #article_four h2{
@@ -289,9 +306,7 @@ body{
 
 #ryan_davis_image{
 	float: left;
-	margin-left: .1%;
-	margin-right: 1%;
-	margin-bottom: 20px;
+	margin: 3px 1% -10px .1%;
 }
 
 #article_five h2{
@@ -317,7 +332,7 @@ body{
 /*---------MORE NEWS START-----------*/
 
 #more_news{
-	background-color: lightgrey;
+	background-color: grey;
 	width: 98%;
 	margin-left: 1%;
 	margin-bottom: 5px;
@@ -329,6 +344,7 @@ body{
 
 #more_news a{
 	text-decoration: none;
+	color: white;
 }
 /*---------MORE NEWS END-----------*/
 
