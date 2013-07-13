@@ -1,0 +1,70 @@
+body{
+	background: url(../Images/site_bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	max-width: 997px;
+	margin: 0 auto;
+}
+
+#content_bg{
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+	height: 1000px;
+}
+
+/*---------MAIN HEADER/NAV START-----------*/
+
+#main_header{
+	width: 100%;
+	background: url(../Images/header_bg.jpg);
+	background-attachment: fixed;
+	color: white;
+	margin-top: -2.15%;
+	height: 66px;
+	margin-bottom: 0%;
+	overflow: hidden;
+}
+
+#main_header h1{
+	float: left;
+	height: 45px;
+	margin-bottom: 0%;
+}
+
+#nav_list{
+	width: 100%;
+	background-color: black;
+	padding: 0%;
+	margin-top: 0%;
+	clear: both;
+	overflow: hidden;
+}
+
+#nav_list li{
+	float: left;
+	padding-left: 6em;
+	list-style-type: none;
+}
+
+#nav_list a{
+	text-decoration: none;
+	color: gray;
+}
+
+
+#nav_list a:hover{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
