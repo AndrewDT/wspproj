@@ -1,7 +1,7 @@
 /*----------SITE-WIDE STYLES-------------*/
 
 body{
-	background: url(../Images/site_bg.jpg);
+	background: url(../Images/Sitewide/site_bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	max-width: 997px;
@@ -18,6 +18,7 @@ body{
 h1{
 	font-family: 'Exo', sans-serif;
 	font-weight: 800;
+	margin-left: 5px;
 }
 
 h2{
@@ -30,12 +31,40 @@ h3, p{
 	font-weight: 400;
 }
 
+p a{
+	text-decoration: none;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+
+aside a{
+	text-decoration: none;
+}
+
+aside a:hover{
+	text-decoration: underline;
+}
+
+#main_header_nav li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#main_header_nav li a:hover{
+	text-decoration: underline;
+}
+
+#main_header_nav li a:active{
+	color: red;
+}
 	
 /*---------MAIN HEADER/NAV START-----------*/
 
 #main_header{
 	width: 100%;
-	background: url(../Images/header_bg.jpg);
+	background: url(../Images/Sitewide/header_bg.jpg);
 	background-attachment: fixed;
 	color: white;
 	margin-top: -2.15%;
