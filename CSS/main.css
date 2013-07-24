@@ -62,6 +62,8 @@ aside a:hover{
 
 #main_header li{
 	float: right;
+	background: -moz-linear-gradient(top,  rgba(165,165,165,1) 0%, rgba(0,0,0,0.75) 68%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(165,165,165,1)), color-stop(68%,rgba(0,0,0,0.75))); /* Chrome,Safari4+ */
 	width: 15%; 
 	height: 100%;
 	font-family: "Helvetica";
