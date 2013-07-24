@@ -35,19 +35,6 @@ aside a:hover{
 	text-decoration: underline;
 }
 
-#main_header_content li a{
-	text-decoration: none;
-	color: grey;
-}
-
-#main_header_content li a:hover{
-	text-decoration: underline;
-}
-
-#main_header_content li a:active{
-	color: red;
-}
-
 
 /*----Main Header/Nav----*/
 
@@ -108,6 +95,7 @@ aside a:hover{
 }
 
 
+
 #nav_list{
 	width: 123.8%;
 	background-color: rgba(0, 0, 0, .90);
@@ -165,7 +153,7 @@ aside a:hover{
 #main_header_content h1{
 	width: 140%;
 	margin-top: 10px;
-	font-size: 2.25em;
+	font-size: 2em;
 	font-family: Exo;
 	color: white;
 }
@@ -193,16 +181,32 @@ aside a:hover{
 }
 
 
+
+
 #main_header_content li{
 	color: white;
 	list-style-type: none;
 	margin-top: -13px;
 	margin-bottom: 16px;
+	margin-left: -20%;
 	font-family: 'Exo', sans-serif;
 	font-weight: 400;
 	font-size: .7em;
 }
 
+
+#main_header_content li a{
+	text-decoration: none;
+	color: grey;
+}
+
+#main_header_content li a:hover{
+	text-decoration: underline;
+}
+
+#main_header_content li a:active{
+	color: red;
+}
 /*---------ARTICLE ONE CONTENT START-----------*/
 
 
@@ -395,7 +399,7 @@ aside a:hover{
 
 
 #read_more{
-	background-color: rgba(50, 50, 50, .75);
+	background-color: rgba(160, 0, 27, 1);
 	width: 98%;
 	height: 30px;
 	margin-top: 5px;
@@ -408,10 +412,11 @@ aside a:hover{
 	font-family: sans-serif;
 	font-weight: bold;
 	font-size: 1em;
+	color: white;
 }
 
-#read_more:hover{
-	background-color: rgba(50, 50, 50, .50);
+#read_more:active{
+	background-color: rgba(160, 0, 27, .90);
 }
 
 
@@ -430,10 +435,12 @@ aside a:hover{
 	color: white;
 	font-family: Helvetica;
 	font-size: .8em;
+	overflow: hidden;
 }
 
 footer p{
-	width: 100%;
-	margin-top: 1px;
+	float: right;
+	height: 52px;
+	margin-top: 35px;
 	margin-right: 5px;
 }
