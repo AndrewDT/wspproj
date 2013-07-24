@@ -36,6 +36,7 @@ aside a:hover{
 }
 
 
+
 /*----Main Header/Nav----*/
 
 #main_header{
@@ -438,9 +439,19 @@ aside a:hover{
 	overflow: hidden;
 }
 
+#footer_div img{
+	float: left;
+	margin: -5px 0px 0px -8.70%;
+	overflow: hidden;
+}
+
+.social_pages{
+	float: left;
+	margin: 35px 3% 0px -8%;
+}
+
 footer p{
 	float: right;
 	height: 52px;
-	margin-top: 35px;
-	margin-right: 5px;
+	margin: 35px 5px 0px 0px;
 }
