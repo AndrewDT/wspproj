@@ -39,6 +39,22 @@ aside a:hover{
 	color: red
 }
 
+.games_header{
+	background: url(../Images/Sitewide/table_bg.jpg);
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.games_row{
+	background: url(../Images/Sitewide/table_row_bg.png);
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
 
 
 /*----Main Header/Nav----*/
@@ -266,22 +282,6 @@ aside a:hover{
 }
 
 
-.games_header{
-	background: url(../Images/Sitewide/table_bg.jpg);
-	color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-}
-
-.games_row{
-	background: url(../Images/Sitewide/table_row_bg.png);
-	color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-}
-
 
 /*---------ARTICLE ONE CONTENT END-----------*/
 
@@ -378,23 +378,6 @@ aside a:hover{
 #side_content_three table{
 	float: right;
 	width: 60%;
-}
-
-
-.games_header{
-	background: url(../Images/Sitewide/table_bg.jpg);
-	color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-}
-
-.games_row{
-	background: url(../Images/Sitewide/table_row_bg.png);
-	color: white;
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
 }
 
 /*---------ARTICLE FOUR CONTENT START-----------*/
