@@ -75,7 +75,8 @@ aside a:hover{
 }
 
 #escape_hatch{
-	
+	padding-top: 0px;
+	border-left: none;
 }
 
 
