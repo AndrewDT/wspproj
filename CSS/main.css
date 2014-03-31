@@ -361,6 +361,17 @@ aside a:hover{
 
 /*---------ARTICLE TWO CONTENT END-----------*/
 
+#change_order{
+	border-top: 1px solid rgba(255, 0, 0, .3);
+	width: 65%;
+}
+
+
+#change_order object{
+	margin-top: 4%;
+	margin-left: -2.4%;
+}
+
 
 /*---------ARTICLE THREE CONTENT START-----------*/
 
